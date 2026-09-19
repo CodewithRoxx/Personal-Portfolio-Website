@@ -5,60 +5,147 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Senior Full Stack Developer portfolio - .NET, Angular, SQL, and Azure."
+      content="Ritu Raj - Senior Full Stack Developer with expertise in .NET, Angular, Azure, and DevOps."
     />
-    <title>Your Name | Senior Full Stack Developer</title>
+    <title>Ritu Raj | Senior Full Stack Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
     <script src="script.js" defer></script>
   </head>
   <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-      <a class="brand" href="#home" aria-label="Your Name home"
-        ><span class="brand-mark">YN</span><span>Your Name</span></a
+      <a class="brand" href="#home" aria-label="Ritu Raj home"
+        ><span class="brand-mark"
+          ><img src="LinkedIn%20professiona.png" alt="Ritu Raj" /></span
+        ><span>Ritu Raj</span></a
       >
       <button
         class="menu-toggle"
         type="button"
         aria-expanded="false"
         aria-controls="site-nav"
+        aria-label="Toggle navigation"
       >
         <span></span><span></span>
         <span class="sr-only">Toggle navigation</span>
       </button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
         <a href="#about">About</a>
+        <a href="#experience">Experience</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
-        <a class="nav-resume" href="mailto:hello@example.com"
+        <a class="nav-resume" href="#contact"
           >Let's talk <span aria-hidden="true">↗</span></a
         >
       </nav>
     </header>
 
-    <main>
+    <main id="main-content">
       <section id="home" class="hero section-shell">
         <div class="hero-copy reveal">
           <p class="eyebrow">
-            <span class="status-dot"></span> Available for select opportunities
+            <span class="status-dot"></span> Senior Full-Stack Developer · Azure
+            & DevOps
           </p>
-          <h1>Building dependable software for <em>ambitious</em> teams.</h1>
+          <h1>
+            I build software that helps businesses
+            <em>move with confidence.</em>
+          </h1>
           <p class="hero-role">
-            Senior Full Stack Developer <span>/</span> .NET, Angular, SQL, Azure
+            Independent Full Stack Developer <span>/</span> .NET, Angular, SQL,
+            Azure
           </p>
           <p class="hero-intro">
-            I turn complex product ideas into clear, resilient digital
-            experiences, from the first database schema to the last polished
-            interaction.
+            I design and deliver secure, scalable digital products that combine
+            clean engineering with practical business impact. From legacy
+            modernization and AI-enabled transformations to cloud-native
+            application delivery, I help teams turn complex ideas into reliable
+            software solutions.
           </p>
+          <div class="hero-build-map" aria-label="How I build software">
+            <div class="build-map-heading">
+              <span class="mono-label">Build system</span>
+              <span>01 — 03</span>
+            </div>
+            <div class="build-map-flow">
+              <div class="build-step">
+                <span class="build-icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-spark"></use></svg
+                ></span>
+                <span
+                  ><strong>Understand</strong
+                  ><small>Find the signal</small></span
+                >
+              </div>
+              <span class="build-connector" aria-hidden="true"></span>
+              <div class="build-step">
+                <span class="build-icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-route"></use></svg
+                ></span>
+                <span
+                  ><strong>Engineer</strong
+                  ><small>Shape the system</small></span
+                >
+              </div>
+              <span class="build-connector" aria-hidden="true"></span>
+              <div class="build-step">
+                <span class="build-icon"
+                  ><svg viewBox="0 0 24 24" aria-hidden="true">
+                    <use href="#icon-cloud"></use></svg
+                ></span>
+                <span
+                  ><strong>Deliver</strong
+                  ><small>Make it dependable</small></span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="hero-meta">
+            <div class="hero-metric">
+              <span class="metric-icon" aria-hidden="true"
+                ><svg viewBox="0 0 32 32"><use href="#icon-chart"></use></svg
+              ></span>
+              <span
+                ><strong>8+ years</strong
+                ><small>Building for scale</small></span
+              >
+            </div>
+            <div class="hero-metric">
+              <span class="metric-icon" aria-hidden="true"
+                ><svg viewBox="0 0 32 32"><use href="#icon-spark"></use></svg
+              ></span>
+              <span
+                ><strong>AI modernization</strong
+                ><small>Practical, useful AI</small></span
+              >
+            </div>
+            <div class="hero-metric">
+              <span class="metric-icon" aria-hidden="true"
+                ><svg viewBox="0 0 32 32"><use href="#icon-route"></use></svg
+              ></span>
+              <span
+                ><strong>Legacy migration</strong
+                ><small>Change without chaos</small></span
+              >
+            </div>
+          </div>
           <div class="hero-actions">
             <a class="button button-primary" href="#projects"
               >Explore my work <span aria-hidden="true">↓</span></a
+            >
+            <a
+              class="button button-secondary"
+              href="Ritu-Raj-Resume.html"
+              download
+              >Download resume <span aria-hidden="true">↓</span></a
             >
             <a class="text-link" href="#contact"
               >Start a conversation <span aria-hidden="true">↗</span></a
@@ -66,158 +153,577 @@
           </div>
         </div>
         <div
-          class="hero-visual reveal"
-          aria-label="Abstract illustration representing connected software systems"
+          class="hero-panel reveal"
+          aria-label="Professional profile summary"
         >
-          <div class="visual-grid"></div>
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <div class="visual-core"><span>BUILD</span><strong>01</strong></div>
-          <span class="visual-label label-top">SYSTEMS / 24</span>
-          <span class="visual-label label-bottom">RELIABILITY + CURIOSITY</span>
+          <div class="panel-card">
+            <div class="profile-visual" aria-hidden="true">
+              <div class="profile-code-window">
+                <div class="code-window-bar">
+                  <span class="window-dots"><i></i><i></i><i></i></span>
+                  <span>app.ts</span>
+                  <span class="code-window-mark">TS</span>
+                </div>
+                <div class="code-lines">
+                  <span><b>const</b> product = <em>build</em>();</span>
+                  <span><b>await</b> product.<em>scale</em>();</span>
+                  <span><b>return</b> <em>impact</em>;</span>
+                </div>
+                <div class="code-status">
+                  <span><i></i> deployed</span><span>AI + cloud</span>
+                </div>
+              </div>
+            </div>
+            <div class="profile-heading">
+              <span class="panel-label">Profile / Focus</span>
+              <span class="profile-availability"><i></i> Available</span>
+            </div>
+            <h3>Ritu Raj</h3>
+            <p>Independent Full-Stack Developer</p>
+            <div class="profile-focus">
+              <span
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-spark"></use>
+                </svg>
+                AI systems</span
+              >
+              <span
+                ><svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-cloud"></use>
+                </svg>
+                Cloud delivery</span
+              >
+            </div>
+            <ul class="profile-services">
+              <li>
+                <span class="service-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-spark"></use></svg
+                ></span>
+                <span
+                  ><strong>Modernize with AI</strong
+                  ><small
+                    >Turn complex systems into useful momentum.</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="service-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-route"></use></svg
+                ></span>
+                <span
+                  ><strong>Move legacy forward</strong
+                  ><small
+                    >Plan migrations with clarity and control.</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="service-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24"><use href="#icon-cloud"></use></svg
+                ></span>
+                <span
+                  ><strong>Deliver in the cloud</strong
+                  ><small
+                    >Build resilient products teams can trust.</small
+                  ></span
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="scroll-cue" aria-hidden="true">
-          <span>Scroll to explore</span><span class="scroll-line"></span>
+        <div class="toolkit-strip reveal">
+          <div class="toolkit-copy">
+            <p class="mono-label">Core toolkit</p>
+            <p>
+              Practical tools for building, modernizing, and operating reliable
+              products.
+            </p>
+            <span class="toolkit-status"
+              ><i></i> Modernization-ready stack</span
+            >
+          </div>
+          <div class="toolkit-stack">
+            <ul class="toolkit-list" aria-label="Core technologies">
+              <li><span></span>.NET</li>
+              <li><span></span>Angular</li>
+              <li><span></span>Azure</li>
+              <li><span></span>SQL Server</li>
+              <li><span></span>DevOps</li>
+              <li><span></span>AI workflows</li>
+            </ul>
+            <div class="toolkit-flow" aria-label="Delivery approach">
+              <span><b>01</b> Build</span><i></i><span><b>02</b> Ship</span
+              ><i></i><span><b>03</b> Improve</span>
+            </div>
+          </div>
         </div>
       </section>
 
       <section id="about" class="about section-shell section-padding">
         <div class="section-heading reveal">
-          <span class="section-number">01</span>
-          <h2>A little <em>context.</em></h2>
+          <h2>Building with <em>clarity.</em></h2>
         </div>
         <div class="about-layout">
           <div class="about-statement reveal">
             <p>
-              I am a senior developer who likes working where thoughtful
-              engineering meets useful design.
+              I am an Independent Full Stack Developer with 8+ years of hands-on
+              experience building scalable software that balances business
+              needs, technical quality, and long-term maintainability.
             </p>
             <p class="muted">
-              For the last 10+ years, I have helped teams ship business-critical
-              products, modernize legacy systems, and build platforms that
-              people enjoy using. I care about clean architecture, honest
-              communication, and leaving codebases better than I found them.
+              My work spans .NET, Angular, SQL Server, Azure, and DevOps, with a
+              focus on modernizing legacy platforms, improving delivery
+              efficiency, and building clean, resilient systems that support
+              growth. I enjoy helping teams move from fragmented legacy
+              workflows to dependable digital experiences.
             </p>
           </div>
           <div class="skills-panel reveal">
-            <p class="mono-label">CURRENT TOOLKIT</p>
+            <p class="mono-label">What I bring</p>
             <ul class="skills-list">
-              <li>.NET / C#</li>
-              <li>Angular / TypeScript</li>
-              <li>SQL Server / PostgreSQL</li>
-              <li>Azure / DevOps</li>
-              <li>REST APIs / Microservices</li>
-              <li>Testing / CI-CD</li>
+              <li>
+                <span class="skill-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 32 32"><use href="#icon-route"></use></svg
+                ></span>
+                <span
+                  ><strong>System design</strong
+                  ><small>Modern architecture built to be reused.</small></span
+                >
+              </li>
+              <li>
+                <span class="skill-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 32 32"><use href="#icon-shield"></use></svg
+                ></span>
+                <span
+                  ><strong>Safe modernization</strong
+                  ><small
+                    >Move legacy platforms forward with control.</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="skill-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 32 32"><use href="#icon-spark"></use></svg
+                ></span>
+                <span
+                  ><strong>Useful AI workflows</strong
+                  ><small>Apply AI where it creates real leverage.</small></span
+                >
+              </li>
+              <li>
+                <span class="skill-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 32 32"><use href="#icon-cloud"></use></svg
+                ></span>
+                <span
+                  ><strong>Cloud delivery</strong
+                  ><small
+                    >Ship resilient systems with DevOps discipline.</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="skill-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 32 32"><use href="#icon-chart"></use></svg
+                ></span>
+                <span
+                  ><strong>Clear execution</strong
+                  ><small
+                    >Connect product goals to engineering outcomes.</small
+                  ></span
+                >
+              </li>
             </ul>
           </div>
         </div>
       </section>
 
+      <section id="experience" class="experience section-shell section-padding">
+        <div class="section-heading reveal">
+          <h2>Experience <em>& impact.</em></h2>
+        </div>
+
+        <div class="experience-grid compact-experience">
+          <article class="experience-item reveal">
+            <div class="experience-header">
+              <div>
+                <span class="experience-role"
+                  >Independent Full-Stack Developer</span
+                >
+                <h3>Modern software delivery</h3>
+              </div>
+              <span class="experience-period">8+ years / ongoing</span>
+            </div>
+            <ul class="impact-list">
+              <li>
+                <span class="impact-number">01</span>
+                <span
+                  ><strong>Modernized products with AI</strong
+                  ><small
+                    >Delivered AI-enabled product and platform modernization
+                    that helped teams improve efficiency, quality, and business
+                    outcomes.</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="impact-number">02</span>
+                <span
+                  ><strong>Reduced migration risk</strong
+                  ><small
+                    >Applied AI-driven approaches to legacy migration, code
+                    analysis, automation, and modernization strategy to speed up
+                    transformation.</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="impact-number">03</span>
+                <span
+                  ><strong>Built dependable systems</strong
+                  ><small
+                    >Created enterprise web applications with Angular, .NET,
+                    SQL, and Azure, focused on maintainability, performance, and
+                    clean architecture.</small
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="impact-number">04</span>
+                <span
+                  ><strong>Raised team execution</strong
+                  ><small
+                    >Mentored engineers and drove reusable patterns that
+                    strengthened collaboration, code quality, and delivery
+                    velocity.</small
+                  ></span
+                >
+              </li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
       <section id="projects" class="projects section-shell section-padding">
         <div class="section-heading reveal">
-          <span class="section-number">02</span>
           <h2>Selected <em>work.</em></h2>
-          <a
-            class="text-link section-link"
-            href="https://github.com/yourusername"
-            target="_blank"
-            rel="noreferrer"
-            >View GitHub <span aria-hidden="true">↗</span></a
-          >
         </div>
+        <p class="projects-lede reveal">
+          A selection of platforms where thoughtful architecture made complex
+          operations easier to run, scale, and improve.
+        </p>
         <div class="project-grid">
-          <article class="project-card project-featured reveal">
+          <article class="project-card reveal">
             <div class="project-art art-lattice">
-              <span class="art-tag">01 / FEATURED</span
-              ><span class="art-word">NEXUS</span
-              ><span class="art-caption">DATA / PEOPLE / MOMENTUM</span>
+              <span class="art-tag">01 / PROJECT</span>
+              <span class="project-icon" aria-hidden="true"
+                ><svg viewBox="0 0 32 32"><use href="#icon-route"></use></svg
+              ></span>
+              <span class="mini-preview logistics-preview" aria-hidden="true">
+                <span class="preview-heading">Operations map <b>LIVE</b></span>
+                <span class="route-line"><i></i><i></i><i></i><i></i></span>
+                <span class="preview-stats"
+                  ><b>24</b> active routes <b>06</b> terminals</span
+                >
+              </span>
+              <span class="art-caption">OIL &amp; GAS / LOGISTICS</span>
             </div>
             <div class="project-content">
-              <p class="mono-label">PRODUCT PLATFORM</p>
-              <h3>Project title goes here</h3>
+              <p class="project-type">SaaS / Multi-tenant operations</p>
+              <h3>Online System for Oil &amp; Gas Logistics</h3>
               <p>
-                A short, editable description of the challenge, your approach,
-                and the result. Keep this to two or three compelling sentences.
+                SaaS-based multi-tenant platform for oil and gas logistics
+                operations, supporting multiple business entities, shared
+                infrastructure, and standardized workflows across pipelines,
+                terminals, and marine operations.
               </p>
+              <ul class="project-highlights">
+                <li>
+                  Built a shared, multi-tenant architecture to manage distinct
+                  customer workflows while preserving data isolation and
+                  operational consistency.
+                </li>
+                <li>
+                  Pipeline: nomination processing, ticketing, measurements,
+                  inventory allocation, invoice generation, and gain/loss
+                  analysis.
+                </li>
+                <li>
+                  Marine: vessel scheduling, dock operations, liquid inventory
+                  management, billing, and invoicing.
+                </li>
+                <li>
+                  Terminals: customer inventory tracking, service orders, BOL
+                  management, invoicing, and reporting.
+                </li>
+              </ul>
               <div class="project-footer">
                 <ul class="tech-list">
                   <li>.NET</li>
                   <li>Angular</li>
                   <li>Azure</li>
+                  <li>SQL</li>
                 </ul>
-                <a
-                  class="icon-link"
-                  href="https://github.com/yourusername/project-name"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="View Project title on GitHub"
-                  >↗</a
-                >
               </div>
             </div>
           </article>
+
           <article class="project-card reveal">
             <div class="project-art art-signal">
-              <span class="art-tag">02 / PLACEHOLDER</span
-              ><span class="signal-bars"
-                ><i></i><i></i><i></i><i></i><i></i
+              <span class="art-tag">02 / PROJECT</span>
+              <span class="project-icon" aria-hidden="true"
+                ><svg viewBox="0 0 32 32"><use href="#icon-chart"></use></svg
               ></span>
+              <span class="mini-preview advisory-preview" aria-hidden="true">
+                <span class="preview-heading"
+                  >Portfolio health <b>+12.8%</b></span
+                >
+                <span class="advisory-chart"
+                  ><i></i><i></i><i></i><i></i><i></i><i></i
+                ></span>
+                <span class="preview-stats"
+                  >goal-based planning <b>ON TRACK</b></span
+                >
+              </span>
             </div>
             <div class="project-content">
-              <p class="mono-label">YOUR NEXT PROJECT</p>
-              <h3>Another project title</h3>
+              <p class="project-type">SaaS / Financial planning</p>
+              <h3>Online Advisory Platform</h3>
               <p>
-                Replace this placeholder with a project you are proud of and the
-                impact it made.
+                SaaS-driven multi-tenant mutual fund advisory platform designed
+                to support personalized investment journeys, digital portfolio
+                planning, and streamlined user experiences across multiple
+                financial product scenarios.
               </p>
+              <ul class="project-highlights">
+                <li>
+                  Designed scalable user flows for goal-based planning,
+                  portfolio recommendations, and investment decision support.
+                </li>
+                <li>
+                  Enabled one-click switching and tax-aware recommendations to
+                  simplify customer actions and improve engagement.
+                </li>
+                <li>
+                  Supported multiple fund providers and user contexts through a
+                  flexible, multi-tenant product architecture.
+                </li>
+              </ul>
               <div class="project-footer">
                 <ul class="tech-list">
-                  <li>SQL</li>
+                  <li>Angular</li>
                   <li>TypeScript</li>
+                  <li>SQL</li>
+                  <li>REST</li>
                 </ul>
-                <a
-                  class="icon-link"
-                  href="https://github.com/yourusername"
-                  target="_blank"
-                  rel="noreferrer"
-                  aria-label="View project on GitHub"
-                  >↗</a
-                >
               </div>
             </div>
           </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-payment">
+              <span class="art-tag">03 / PROJECT</span>
+              <span class="project-icon" aria-hidden="true"
+                ><svg viewBox="0 0 32 32"><use href="#icon-card"></use></svg
+              ></span>
+              <span class="mini-preview payment-preview" aria-hidden="true">
+                <span class="payment-check">✓</span>
+                <span
+                  ><b>Payment complete</b
+                  ><small>Electricity bill · ₹2,480</small></span
+                >
+                <span class="payment-status">CONFIRMED</span>
+              </span>
+              <span class="art-caption">UTILITY PAYMENTS / TRANSACTIONS</span>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Payments / Transaction resilience</p>
+              <h3>Online Bill Payment System</h3>
+              <p>
+                Secure and scalable platform for users to pay water,
+                electricity, and gas bills online through multiple payment
+                methods.
+              </p>
+              <ul class="project-highlights">
+                <li>
+                  Integrated UPI apps, credit cards, debit cards, and payment
+                  gateway APIs.
+                </li>
+                <li>
+                  Designed resilient backend workflows with retries,
+                  compensations, and transaction tracking.
+                </li>
+                <li>
+                  Implemented secure authentication and encryption for sensitive
+                  data.
+                </li>
+                <li>
+                  Delivered clear payment status updates, reducing manual
+                  intervention for thousands of users.
+                </li>
+              </ul>
+              <div class="project-footer">
+                <ul class="tech-list">
+                  <li>.NET Core</li>
+                  <li>Angular</li>
+                  <li>SQL Server</li>
+                  <li>Azure Key Vault</li>
+                  <li>DevOps</li>
+                  <li>Payment APIs</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-art art-banking">
+              <span class="art-tag">04 / PROJECT</span>
+              <span class="project-icon" aria-hidden="true"
+                ><svg viewBox="0 0 32 32"><use href="#icon-shield"></use></svg
+              ></span>
+              <span class="mini-preview banking-preview" aria-hidden="true">
+                <span class="preview-heading"
+                  >Support dashboard <b>SECURE</b></span
+                >
+                <span class="banking-kpis"
+                  ><i><b>1,248</b> accounts</i><i><b>98.4%</b> resolved</i
+                  ><i><b>32</b> open tasks</i></span
+                >
+                <span class="banking-progress"><i></i></span>
+              </span>
+              <span class="art-caption">BANKING OPERATIONS / SUPPORT</span>
+            </div>
+            <div class="project-content">
+              <p class="project-type">Enterprise / Banking operations</p>
+              <h3>Banking Business Support Portal</h3>
+              <p>
+                Business support site for banking operations, enabling internal
+                teams and customers to manage financial workflows more
+                efficiently.
+              </p>
+              <ul class="project-highlights">
+                <li>
+                  Built modules for account management, transaction tracking,
+                  and reporting.
+                </li>
+                <li>
+                  Integrated banking APIs for secure and compliant data
+                  exchange.
+                </li>
+                <li>
+                  Designed role-based access control to protect sensitive
+                  financial information.
+                </li>
+                <li>
+                  Automated approvals, notifications, and escalations with a
+                  responsive desktop and mobile UI.
+                </li>
+                <li>
+                  Streamlined support processes and improved transparency with
+                  real-time transaction and reporting dashboards.
+                </li>
+              </ul>
+              <div class="project-footer">
+                <ul class="tech-list">
+                  <li>.NET Core</li>
+                  <li>Angular</li>
+                  <li>SQL Server</li>
+                  <li>Azure Services</li>
+                  <li>REST APIs</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta section-shell section-padding">
+        <div class="cta-panel reveal">
+          <div>
+            <p class="mono-label">Ready to build</p>
+            <h2>From legacy systems to scalable digital products.</h2>
+            <ul class="cta-points">
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-spark"></use></svg
+                >AI modernization
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-route"></use></svg
+                >Legacy migration
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <use href="#icon-cloud"></use></svg
+                >Cloud delivery
+              </li>
+            </ul>
+          </div>
+          <div class="cta-actions">
+            <a class="button button-primary" href="#contact"
+              >Let’s talk <span aria-hidden="true">↗</span></a
+            >
+            <a
+              class="button button-secondary-light"
+              href="Ritu-Raj-Resume.html"
+              download
+              >Download resume <span aria-hidden="true">↓</span></a
+            >
+          </div>
         </div>
       </section>
 
       <section id="contact" class="contact section-shell section-padding">
         <div class="contact-layout">
           <div class="contact-copy reveal">
-            <span class="section-number">03</span>
-            <h2>Have a good problem? <em>Let's talk.</em></h2>
+            <h2>Need a reliable software partner? <em>Let's talk.</em></h2>
             <p>
-              Tell me a little about what you are building, fixing, or figuring
-              out. I usually reply within a couple of days.
+              I’m open to opportunities in full-stack development, Azure
+              architecture, and delivery-focused engineering roles where I can
+              build reliable products with strong team collaboration.
             </p>
             <div class="social-links">
               <a
-                href="https://www.linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/rajritu00123/"
                 target="_blank"
                 rel="noreferrer"
-                >LinkedIn <span>↗</span></a
-              ><a
-                href="https://github.com/yourusername"
-                target="_blank"
-                rel="noreferrer"
-                >GitHub <span>↗</span></a
-              ><a href="mailto:hello@example.com">Email <span>↗</span></a>
+                ><span class="contact-link-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24">
+                    <use href="#icon-link"></use></svg></span
+                ><span>LinkedIn</span><b>↗</b></a
+              >
+              <a href="mailto:rajritu00123@gmail.com"
+                ><span class="contact-link-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24">
+                    <use href="#icon-mail"></use></svg></span
+                ><span>Email</span><b>↗</b></a
+              >
+              <a href="tel:+918789906112"
+                ><span class="contact-link-icon" aria-hidden="true"
+                  ><svg viewBox="0 0 24 24">
+                    <use href="#icon-phone"></use></svg></span
+                ><span>Phone</span><b>↗</b></a
+              >
             </div>
+            <ul class="contact-details">
+              <li><span>Based in</span> Delhi NCR, India</li>
+              <li>
+                <span>Open to</span> Full-stack, Azure, and AI modernization
+                work
+              </li>
+            </ul>
           </div>
+
           <form
             class="contact-form reveal"
-            action="mailto:hello@example.com"
+            action="mailto:rajritu00123@gmail.com"
             method="post"
             enctype="text/plain"
           >
+            <div class="contact-form-heading">
+              <p class="mono-label">Start a conversation</p>
+              <h3>Tell me what you’re building.</h3>
+            </div>
             <label for="name"
               >Your name<input
                 id="name"
@@ -244,8 +750,8 @@
               Send message <span aria-hidden="true">↗</span>
             </button>
             <p class="form-note">
-              This opens your default email client. Replace the email address in
-              the HTML with your own.
+              This opens your default email client so you can send a message
+              directly.
             </p>
           </form>
         </div>
@@ -253,9 +759,168 @@
     </main>
 
     <footer class="site-footer section-shell">
-      <span>© <span id="year"></span> Your Name</span
-      ><span class="footer-note">Designed + built with intent.</span
-      ><a href="#home">Back to top ↑</a>
+      <span>© <span id="year"></span> Ritu Raj</span>
+      <span class="footer-note">Designed + built with purpose.</span>
+      <a href="#home">Back to top ↑</a>
     </footer>
+    <svg class="icon-definitions" aria-hidden="true" focusable="false">
+      <defs>
+        <symbol id="icon-spark" viewBox="0 0 24 24">
+          <path
+            d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+          <path
+            d="m19 3 .5 1.5L21 5l-1.5.5L19 7l-.5-1.5L17 5l1.5-.5L19 3Z"
+            fill="currentColor"
+          />
+        </symbol>
+        <symbol id="icon-cloud" viewBox="0 0 24 24">
+          <path
+            d="M7.5 18.5h9a4.5 4.5 0 0 0 .6-8.96A6 6 0 0 0 5.4 8.2a3.7 3.7 0 0 0 2.1 10.3Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+          <path
+            d="M9 21h6"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-route" viewBox="0 0 32 32">
+          <circle
+            cx="7"
+            cy="24"
+            r="3"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+          />
+          <circle
+            cx="25"
+            cy="8"
+            r="3"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+          />
+          <path
+            d="M10 24c8 0 3-10 12-13"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.7"
+          />
+          <path
+            d="m19 8 3-1 1 3"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-chart" viewBox="0 0 32 32">
+          <path
+            d="M7 25V17M16 25V10M25 25V5"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="2.2"
+          />
+          <path
+            d="M5 25h23"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-card" viewBox="0 0 32 32">
+          <rect
+            x="4"
+            y="8"
+            width="24"
+            height="16"
+            rx="2"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+          />
+          <path
+            d="M4 13h24M8 19h6"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-shield" viewBox="0 0 32 32">
+          <path
+            d="m16 4 10 4v7c0 6-4.2 10.5-10 13-5.8-2.5-10-7-10-13V8l10-4Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+          <path
+            d="m11 16 3 3 7-7"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-link" viewBox="0 0 24 24">
+          <path
+            d="m9.5 14.5 5-5M7.5 17.5l-1 1a3.5 3.5 0 0 1-5-5l3-3a3.5 3.5 0 0 1 5 0M16.5 6.5l1-1a3.5 3.5 0 0 1 5 5l-3 3a3.5 3.5 0 0 1-5 0"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-mail" viewBox="0 0 24 24">
+          <rect
+            x="3"
+            y="5"
+            width="18"
+            height="14"
+            rx="2"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="1.7"
+          />
+          <path
+            d="m4 7 8 6 8-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+        <symbol id="icon-phone" viewBox="0 0 24 24">
+          <path
+            d="M7 3h3l1.5 4-2 1.5a15 15 0 0 0 6 6l1.5-2 4 1.5v3a2 2 0 0 1-2 2C11.3 18.8 5.2 12.7 4 5a2 2 0 0 1 2-2h1Z"
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="1.7"
+          />
+        </symbol>
+      </defs>
+    </svg>
   </body>
 </html>
